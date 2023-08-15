@@ -56,15 +56,39 @@
 		7A78A5E82A8BE7D000F03636 /* HomeWork 2.09 */ = {
 			isa = PBXGroup;
 			children = (
-				7A78A5E92A8BE7D000F03636 /* AppDelegate.swift */,
-				7A78A5EB2A8BE7D000F03636 /* SceneDelegate.swift */,
-				7A78A5ED2A8BE7D000F03636 /* ViewController.swift */,
-				7A78A5EF2A8BE7D000F03636 /* Main.storyboard */,
+				7A78A5FD2A8BE7FF00F03636 /* SupportingFiles */,
+				7A78A5FE2A8BE82400F03636 /* ViewControllers */,
+				7A78A5FF2A8BE83300F03636 /* Storyboards */,
 				7A78A5F22A8BE7D100F03636 /* Assets.xcassets */,
-				7A78A5F42A8BE7D100F03636 /* LaunchScreen.storyboard */,
-				7A78A5F72A8BE7D100F03636 /* Info.plist */,
 			);
 			path = "HomeWork 2.09";
+			sourceTree = "<group>";
+		};
+		7A78A5FD2A8BE7FF00F03636 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7A78A5E92A8BE7D000F03636 /* AppDelegate.swift */,
+				7A78A5EB2A8BE7D000F03636 /* SceneDelegate.swift */,
+				7A78A5F72A8BE7D100F03636 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		7A78A5FE2A8BE82400F03636 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7A78A5ED2A8BE7D000F03636 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7A78A5FF2A8BE83300F03636 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7A78A5EF2A8BE7D000F03636 /* Main.storyboard */,
+				7A78A5F42A8BE7D100F03636 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "HomeWork 2.09/Info.plist";
+				INFOPLIST_FILE = "HomeWork 2.09/SupportingFiles/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -301,9 +325,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "SwiftJun.HomeWork-2-09";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +342,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "HomeWork 2.09/Info.plist";
+				INFOPLIST_FILE = "HomeWork 2.09/SupportingFiles/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -328,9 +355,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "SwiftJun.HomeWork-2-09";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
