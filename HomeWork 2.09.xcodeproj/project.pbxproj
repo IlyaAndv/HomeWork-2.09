@@ -14,6 +14,7 @@
 		7A78A5F32A8BE7D100F03636 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A78A5F22A8BE7D100F03636 /* Assets.xcassets */; };
 		7A78A5F62A8BE7D100F03636 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A78A5F42A8BE7D100F03636 /* LaunchScreen.storyboard */; };
 		7A78A6012A8BF2FB00F03636 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A78A6002A8BF2FB00F03636 /* SettingsViewController.swift */; };
+		7A98D86D2A8C0831009C8729 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A98D86C2A8C0831009C8729 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7A78A5F52A8BE7D100F03636 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A78A5F72A8BE7D100F03636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A78A6002A8BF2FB00F03636 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7A98D86C2A8C0831009C8729 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				7A78A5FE2A8BE82400F03636 /* ViewControllers */,
+				7A98D86E2A8C083D009C8729 /* Models */,
 				7A78A5FF2A8BE83300F03636 /* Storyboards */,
 				7A78A5F22A8BE7D100F03636 /* Assets.xcassets */,
 				7A78A5FD2A8BE7FF00F03636 /* SupportingFiles */,
@@ -92,6 +95,14 @@
 				7A78A5F42A8BE7D100F03636 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		7A98D86E2A8C083D009C8729 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7A98D86C2A8C0831009C8729 /* File.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A98D86D2A8C0831009C8729 /* File.swift in Sources */,
 				7A78A5EE2A8BE7D000F03636 /* WellcomViewController.swift in Sources */,
 				7A78A5EA2A8BE7D000F03636 /* AppDelegate.swift in Sources */,
 				7A78A5EC2A8BE7D000F03636 /* SceneDelegate.swift in Sources */,
